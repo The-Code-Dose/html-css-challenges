@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Challenges</title>
+    <style>
+        * {
+            color: #d3d3d3;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+
+        .flex-container {
+            display: flex;
+            background-color: #3e3e3e;
+        }
+
+        .flex-container ul {
+            list-style: none;
+            display: inherit;
+        }
+
+        .flex-container li {
+            margin-right: 10px;
+            border: 1px solid #4e4e4e;
+            padding: 20px;
+            border-radius: 10px;
+
+        }
+
+        .flex-container li:hover {
+            border-color: #d8cd76;
+            color: #d8cd76;
+        }
+
+        .flex-container li:first-child {
+            font-weight: 700;
+            color: #d3d3d3;
+            pointer-events: none;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="flex-container">
+            <ul>
+                <li>SOTD</li>
+                <li>Creator</li>
+                <li>Font & Color</li>
+                <li>Details</li>
+                <li>Score</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
