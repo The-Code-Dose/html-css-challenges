@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #737373;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  font-size: 25px;
+  color: white;
+}
+
+.first {
+  font-weight: 900;
+}
+
+.box {
+  border: 2px solid rgba(248, 250, 252, 0.2);
+  padding: 30px 20px;
+  border-radius: 20px;
+}
+
+#yellow-box {
+  border: 2px solid yellow;
+  color: yellow;
+}
