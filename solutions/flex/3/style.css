@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.main {
+  display: flex;
+  margin-left: 300px;
+  margin-top: 300px;
+  gap: 30px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.thumnail img {
+  border-radius: 20px;
+}
+
+.description {
+  gap: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.channel-details {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  color: #f8fafc;
+}
+
+.channel-details img {
+  border-radius: 50%;
+}
