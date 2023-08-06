@@ -1,0 +1,102 @@
+html , body {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+
+
+.parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(189, 161, 161);
+}
+
+.box{
+    position: relative;
+    text-align: center;
+    height: 165px;
+    width: 546px;
+    border:none;
+    background-color: #000000;
+    cursor: pointer;
+    
+}
+
+.box-img {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    width: 60px; 
+    height: 60px; 
+
+  
+    
+  }
+
+.capsule-rectangle {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    width: 480px;
+    height: 100px;
+    background-color: #181818;
+    border-radius: 50px; /* Adjust the value as needed */
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .capsule-rectangle::before,
+  .capsule-rectangle::after {
+    content: '';
+    position: absolute;
+    width: 100px; /* Adjust the value as needed */
+    height: 100px;
+    background-color: #181818;
+    border-radius: 50%;
+  }
+  
+  .capsule-rectangle::before {
+    left: -50px;
+    top: 0;
+  }
+  
+  .capsule-rectangle::after {
+    right: -50px;
+    bottom: 0;
+  }
+  
+
+.text h1{
+    margin-right: 2rem;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text h2{
+    margin-right: 6rem;
+    color:#71767A;
+    text-align: center;
+    margin-top: -1rem;
+    font-weight: 100;
+    font-size: 22px;
+}
+
+.dot {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    width: 30px; 
+    height: 30px; 
+    z-index: 1; /* Set a higher z-index to bring it in front of other elements */
+
+}
