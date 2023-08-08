@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  font-size: 20px;
+}
+
+td {
+  padding: 20px;
+  padding-right: 200px;
+}
+
+.radio {
+  margin-right: 15px;
+}
+
+input[type="radio"]:checked + label {
+  text-decoration: line-through;
+}
+table,
+td {
+  border: 2px solid;
+  border-collapse: collapse;
+}
