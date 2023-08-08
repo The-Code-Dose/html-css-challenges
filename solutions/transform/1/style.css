@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-size: 150px;
+  margin-bottom: -80px;
+}
+
+p {
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #facc15;
+  height: 60px;
+  width: 170px;
+  padding-top: 25px;
+  padding-left: 45px;
+  border-radius: 25px;
+  margin-left: 700px;
+  transform: rotate(-15deg);
+}
