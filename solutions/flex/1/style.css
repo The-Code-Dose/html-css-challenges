@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #44403c;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  font-size: 40px;
+  color: white;
+}
+
+.first {
+  font-weight: 900;
+  margin-right: 30px;
+}
+
+.box {
+  border: 2px solid rgba(248, 250, 252, 0.2);
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+#yellow-box {
+  border: 2px solid rgb(219, 219, 119);
+  color: rgb(219, 219, 119);
+}
