@@ -3,8 +3,8 @@
     border: 2px solid gray;
     border-radius: 25px;
     opacity: 0.5;
-    padding:5px 25px;
     font-size: 16px;
+    padding:5px 25px;
 }
 #search-bar:focus-visible{
     outline: none;
