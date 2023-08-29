@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar-bottom</title>
+    <!-- font awosome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#" class="test"></a>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="icons home"><a href="#"><i class="fa-solid fa-home"></i></a></div>
+                <div class="icons search">
+                    <a class="search-btn" href="#"><i class="fa-solid fa-search"></i></a>
+                    <div class="search-input-container ">
+                        <form action="">
+                            <input type="text" placeholder="Search">
+                        </form>
+                    </div>
+                </div>
+                <div class="icons chat"><a href="#"><i class="fa-solid fa-comment"></i></a></div>
+                <div class="icons user"><a href="#"><i class="fa-solid fa-user"></i></a></div>
+            </div>
+        </nav>
+    </div>
+
+    <script>
+        let searchBtn = document.querySelector('.search-btn').addEventListener('click', searchInput);
+        
+        function searchInput(){
+            let inputBox = document.querySelector('.search-input-container');
+                inputBox.classList.toggle('showSearch');
+
+            // window.addEventListener('click', (event) =>{
+            //     if(event.target !== searchBtn){
+            //         inputBox.classList.remove('showSearch');
+            //     }
+            // })
+        };
+    </script>
+    
+</body>
+</html>

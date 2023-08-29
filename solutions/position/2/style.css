@@ -1,0 +1,103 @@
+
+
+*{
+    margin: 0;
+}
+body{
+    background: #bf8a8a;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.blog-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 300px;
+    min-height: 300px;
+    background: url('bg.jpg') no-repeat center/cover;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+}
+.blog-wrap::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #000;
+    filter: opacity(0.5);
+    top: 0;
+    left: 0;
+}
+.blogtop,
+.blogbottom{
+    display: flex;
+    position: relative;
+}
+.blogtop{
+    justify-content: space-between;
+    align-items: center;
+}
+.blogbottom{
+    justify-content: end;
+    gap: 10px;
+}
+.food button{
+   background: transparent;
+   padding: 5px;
+   border: none;
+   cursor: pointer;
+   font-size: 25px;
+   color: #fff;
+}
+.save button{
+    background: red;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+.upload,
+.dots {
+    filter: brightness(0.7);
+}
+.upload{
+    background: #fff;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    > i {
+        font-size: 18px;
+    }
+}
+.dots{
+    background: #fff;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    > span{
+        height: 10px;
+        width: 9px;
+        border-radius:50%;
+        background-color: #000;
+    }
+}
