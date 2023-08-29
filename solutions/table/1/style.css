@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(35, 35, 35);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  font-family: 'Comic Sans MS', cursive;
+}
+
+table,
+td {
+  background-color: black;
+  color: #fff;
+  border: 2px solid #dddddd;
+  border-collapse: collapse;
+}
+
+td{
+    padding: 18px 120px 18px 18px;
+}
+
+input[type="checkbox"]{
+    margin-right: 12px;
+    accent-color: #22a094;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:not(:checked) + label{
+    text-decoration: underline;
+}
+
+input[type="checkbox"]:checked + label{
+    text-decoration: line-through;
+}
