@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-icon{
+    position: absolute;
+    font-size: 20px;
+    top: 14px;
+    left: 14px;
+}
+
+.search-input{
+    font-size: 18px;
+    border: 3px solid #aaaaaa;
+    width: 300px;
+    padding: 12px;
+    border-radius: 48px;
+}
+
+.search-input::placeholder{
+    padding-left: 28px;
+}
+
+.search-input:focus{
+    padding-left: 44px;
+}
+
+.search-input:focus::placeholder{
+    color: transparent;
+}
