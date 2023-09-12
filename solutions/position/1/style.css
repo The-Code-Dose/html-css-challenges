@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    
+}
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white; /* White background color for the navbar */
+    color: black; /* Black text color for the icons */
+    display: flex;
+    justify-content: center; /* Center-align the content horizontally */
+    align-items: center;
+    padding: 10px;
+    border-top: 2px solid black; /* Bold upper border line */
+}
+
+.icon {
+    display: flex;
+    gap: 60px; /* Adjust the gap to control the spacing between icons and image */
+    align-items: center;
+}
+
+.icon img {
+    width: 30px; /* Adjust the width of the image as needed */
+    height: auto;
+}
+
+.icon i {
+    font-size: 24px; /* Adjust the icon size as needed */
+}
